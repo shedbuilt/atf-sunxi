@@ -1,0 +1,6 @@
+NAME=atf-sunxi
+VERSION=1.0-aw-6
+REVISION=1
+LICENSE=BSD-3-Clause
+SRC=https://github.com/apritzel/arm-trusted-firmware/archive/v1.0-aw-6.tar.gz
+SRCMD5=70878cb8460028ee5fe28db54f15d4a5
