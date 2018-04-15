@@ -11,5 +11,5 @@ case "$SHED_DEVICE" in
         ;;
 esac
 make PLAT="$SHDPKG_ATF_PLATFORM" DEBUG=1 "$SHDPKG_ATF_TARGET" &&
-install -dm755 "${SHED_FAKEROOT}/boot/u-boot" &&
-install -m644 "$SHDPKG_ATF_PRODUCT" "${SHED_FAKEROOT}/boot/u-boot"
+install -dm755 "${SHED_FAKE_ROOT}/boot/u-boot" &&
+install -m644 "$SHDPKG_ATF_PRODUCT" "${SHED_FAKE_ROOT}/boot/u-boot"
