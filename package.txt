@@ -4,3 +4,5 @@ REVISION=1
 LICENSE=BSD-3-Clause
 SRC=https://github.com/apritzel/arm-trusted-firmware/archive/v1.0-aw-6.tar.gz
 SRCMD5=70878cb8460028ee5fe28db54f15d4a5
+OPTIONS=bootstrap|release nanopineo2|nanopineoplus2|orangepipc2|nanopik1plus
+DEFAULTS=release
